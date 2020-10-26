@@ -1,0 +1,11 @@
+body {
+    background-color: darkgreen;
+}
+header {
+    background-color: ghostwhite;
+    padding: 20px;
+    font-family: 'Amatic SC', cursive;
+    color: forestgreen;
+    font-size: 48px;
+}
+    
