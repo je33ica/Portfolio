@@ -26,5 +26,16 @@ header {
     font-family: 'Amatic SC', cursive;
     color: ivory;
     padding: 10%;
-    
+}
+.footer {
+    background-color: ivory;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+
+}
+.footer p {
+    color:rgb(8, 59, 8) ;
+    font-size: medium;
+    font-display: center;
 }
