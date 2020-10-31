@@ -1,6 +1,9 @@
+/*background colour for whole page*/
 body {
     background-color: rgb(85, 142, 85);
+    max-width: 100%;
 }
+/*Styling for header using google font*/
 header {
     background-color: ivory;
     padding: 20px;
@@ -8,8 +11,7 @@ header {
     color: forestgreen;
     font-size: 48px;
 }
-
-
+/*styling for nav bar elements and chnages during hover, click*/
 .active a {
     background: rgb(8, 59, 8);
     color: white;}
@@ -22,12 +24,14 @@ header {
 .nav a {
     color: forestgreen;
 }
+/*styling for all text indie containers- applies to all pages*/
 .container {
     font-family: 'Amatic SC', cursive;
     color: ivory;
     padding: 10%;
 }
-.footer {
+
+/*.footer {
     background-color: ivory;
     padding: 0%;
     margin: 0%;
@@ -38,4 +42,8 @@ header {
     color:rgb(8, 59, 8) ;
     font-size: medium;
     font-display: center;
+}*/
+
+.form-group {
+    box-sizing: content-box;
 }
