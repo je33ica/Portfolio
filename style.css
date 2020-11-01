@@ -24,25 +24,19 @@ header {
 .nav a {
     color: forestgreen;
 }
-/*styling for all text indie containers- applies to all pages*/
+/*styling for all text inside containers- applies to all pages*/
 .container {
     font-family: 'Amatic SC', cursive;
     color: ivory;
+    text-align: justify;
     padding: 10%;
-}
-
-/*.footer {
-    background-color: ivory;
-    padding: 0%;
-    margin: 0%;
-    border: 0%;
-
-}
-.footer p {
-    color:rgb(8, 59, 8) ;
     font-size: medium;
-    font-display: center;
-}*/
+}
+/* tect colour changed to match theme*/
+.thumbnail .caption {
+    padding: 9px;
+    color: forestgreen;
+}
 
 .form-group {
     box-sizing: content-box;
