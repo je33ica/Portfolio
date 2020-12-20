@@ -1,126 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
 
-    <title>Document</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fa3c1bacc8.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio</title>
+</head>
+
+<body>
     <header class="header">
-      <nav class="row">
-        <ul class="nav nav-pills col-sm-12 col-md-12">
-          <li role="presentation col-sm-12 col-md-12">
-            <a href="index.html">Home</a>
-          </li>
-          <li role="presentation col-sm-12 col-md-12">
-            <a href="contact.html">Contact</a>
-          </li>
-          <li role="presentation col-sm-12 col-md-12" class="active">
-            <a href="portfolio.html">about me</a>
-          </li>
-        </ul>
-      </nav>
+        <nav class="nav-pills flex-column flex-sm-row">
+            <ul class="nav nav-center">
+                <li class="flex-sm-fill text-sm-center nav-link">
+                    <a id="nav" href="index.html">Home</a>
+                </li>
+                <li class="flex-sm-fill text-sm-center nav-link ">
+                    <a id="nav" class="active" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="flex-sm-fill text-sm-center nav-link">
+                    <a id="nav"  href="connect.html">Connect</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-
     <div class="container">
-      <div class="row">
-        <section class="col-sm-12 col-md-6 col-lg-4">
-          <div class="thumbnail">
-            <img src="images/LarriHead.png" alt="Larri smiling" />
-            <div class="caption">
-              <h3>Larri smiling</h3>
-              <p>
-                Larri, the happiest but most needy puppy wou will ever meet. She always wants to be holing your hand which is cute but not when youre trying to drink a cup of tea!
-              </p>
+        <div class="row">
+            <div>
+                <a href="https://github.com/je33ica">
+                    <i class="fab fa-github-square fa-4x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jessica-o-keeffe-5b316281/">
+                    <i class="fab fa-linkedin fa-4x"></i>
+                </a>
             </div>
-          </div>
-        </section>
-        <section class="col-sm-12 col-md-6 col-lg-4">
-          <div class="thumbnail">
-            <img src="images/serious.png" alt="Larri & I posing" />
-            <div class="caption">
-              <h3>Me & my puppy Larri</h3>
-              <p>
-                Larri got her name from my mother who named her from a picture
-                before knowing she was a girl
-              </p>
-            </div>
-          </div>
-        </section>
-        <section class="col-sm-12 col-md-6 col-lg-4">
-          <div class="thumbnail">
-            <img src="images/funny.png" alt="Larri pulling a funny mouth" />
-            <div class="caption">
-              <h3>Funny face puppy</h3>
-              <p>
-                Larri wasn't sure what the photographer meant when she said 'say
-                cheese!'
-              </p>
-            </div>
-          </div>
-        </section>
-      </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                <br></br>
+                <a href="https://github.com/je33ica/FirstProject">Git hub repo</a>
+                <a href=" https://je33ica.github.io/FirstProject/">
+                    <i class="fas fa-utensils fa-3x"></i>
+                    <br></br>
+                    Project 1, A mobile first app desgined to add a fun twist when picking a recipe
+
+                    <br></br>
+            </div></a>
+            <div class="col">
+
+                <a href="https://github.com/je33ica/week-6-Weather-Dashboard-">Git hub repo</a>
+                <a href=" https://je33ica.github.io/week-6-Weather-Dashboard-/">
+                    <i class="fas fa-umbrella fa-3x"></i>
+                    <br></br>
+                    A weather dashboard, displays current weather & weather for next 5 days
+
+            </div></a>
+            <div class="col">
+                <br></br>
+                <a href="https://github.com/je33ica/Week4-Coding-Quiz">Git hub repo</a>
+                <a href="https://je33ica.github.io/Week4-Coding-Quiz/">
+                    <i class="fas fa-brain fa-3x"></i>
+                    <br></br>
+                    A multiple choice timed quiz that will run in the browser
+                    <br></br>
+            </div></a>
+        </div>
     </div>
 
-    <!--   <div class="container">
-        <div class="row">
-          <div class="col-sm-4 col-md"></div>
-            <div class="col-sm-4">
-            <div class="thumbnail">
-              <img src="images/LarriHead.png" alt="Larri, my puppy smiling">
-              <div class="caption">
-                <h3>Larri smiling</h3>
-                <p>Larri is a female, 1 year old american bully, shhe will continue growing for another year and currenly weighs 40kg </p>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-                <div class="col-sm-6">
-                  <div class="thumbnail">
-                    <img src="images/serious.png" alt="Larri & I posing">
-                    <div class="caption">
-                      <h3>Me & my puppy Larri</h3>
-                      <p>Larri got her name from my mother who named her from a picture before knowing she was a girl, we all thought it was so cute it stuck</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              <div class="row">
-                <div class="col-sm-2">
-                </div>
-                <div class="col-sm-8">
-                  <div class="thumbnail">
-                    <img src="images/funny.png" alt="Larri pulling a funny mouth">
-                    <div class="caption">
-                      <h3>Funny face puppy</h3>
-                      <p>Larri wasn't sure what the photographer meant when she said 'say cheese!'</p>
-                      
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-2">
-                </div>
-              </div> 
-          
-            <footer class="footer mt-auto py-3">
-                <div class="container">
-                  <p>footer</p>
-                </div>
-              </footer> -->
-  </body>
+
+
+</body>
+
 </html>

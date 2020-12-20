@@ -1,43 +1,103 @@
 /*background colour for whole page*/
+
 body {
-    background-color: rgb(85, 142, 85);
-    max-width: 100%;
+    background-color: rgb(118, 122, 118);
+    max-width: 100%;    
+    font-size: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #f2dede;
 }
 /*Styling for header using google font*/
 header {
-    background-color: ivory;
+    /* background-color: rgb(108, 110, 108); */
     padding: 20px;
-    font-family: 'Amatic SC', cursive;
-    color: forestgreen;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(117, 189, 117);
     font-size: 48px;
+    flex-flow: column wrap;
+    justify-content: center;
 }
+.page-header {
+    text-align: left;
+}
+
 /*styling for nav bar elements and chnages during hover, click*/
-.active a {
-    background: rgb(8, 59, 8);
-    color: white;}
 
-.nav-pills li.active a:hover {
-    color: #fff;
-    background-color:  rgb(8, 59, 8);
+#nav {
+    font-size:xx-large ;
+    color: #e6c3c3;
+    font-weight: bold;
+}
+.nav.nav-center {
+    display: inline-block;
+    left: 0;
+    right: 0;
+    text-align:center;width:100%;
+}
+.nav.nav-center li,.nav.nav-center li  a{
+    display:inline;
+    float:none;
+    line-height:40px;
 }
 
-.nav a {
-    color: forestgreen;
+
+#nav:hover {
+    
+    background-color:  #ffffff;
+    
+    border-radius: 10px;
 }
-/*styling for all text inside containers- applies to all pages*/
+#nav.active {
+    color: rgb(43, 44, 43);
+    
+}
+
+
+
 .container {
-    font-family: 'Amatic SC', cursive;
-    color: ivory;
-    text-align: justify;
-    padding: 10%;
-    font-size: medium;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;
+    padding-left:5%;
+    padding-right:5% ;
+    font-size: 30%;
+    margin: 5%;
 }
-/* tect colour changed to match theme*/
-.thumbnail .caption {
+/* text colour changed to match theme*/
+.thumbnail {
     padding: 9px;
-    color: forestgreen;
+    background-color:rgb(118, 122, 118);
+    border-color: rgb(102, 102, 102);
+    color: #e6c3c3
+
+;
 }
 
 .form-group {
     box-sizing: content-box;
+}
+.fas {
+    color:#f2dede;
+    position: center;
+    
+}
+.fas:hover {
+    color: #b9a4a4 ;
+
+}
+
+#icon {
+    color:#e6c3c3;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 30%;
+    position: center;
+    text-align: center;
+}
+input {
+    display: none;
+}
+
+a,p {
+    color:#f6caca;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: large;    
 }
