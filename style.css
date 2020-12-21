@@ -52,8 +52,22 @@ header {
     
 }
 
+.repo:hover {
+    color: #b9a4a4;
 
+}
+.fa-github-square,.fa-linkedin{
+    color: rgb(43, 44, 43);
 
+}
+.fa-github-square:hover,.fa-linkedin:hover{
+    color: #b9a4a4;
+
+}
+
+/* .fa-linkedin:before {
+color: rgb(43, 44, 43);
+} */
 .container {
     font-family: 'Hind Siliguri', sans-serif;
     text-align: center;
@@ -67,9 +81,7 @@ header {
     padding: 9px;
     background-color:rgb(118, 122, 118);
     border-color: rgb(102, 102, 102);
-    color: #e6c3c3
-
-;
+    color: #e6c3c3;
 }
 
 .form-group {
