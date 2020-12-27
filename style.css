@@ -20,7 +20,19 @@ header {
 .page-header {
     text-align: left;
 }
-
+.thumbnail {
+    display: inline;
+    padding: 9px;
+    background-color:rgb(118, 122, 118);
+    border-color: rgb(102, 102, 102);
+    color: #e6c3c3;
+}
+.thumbnail:hover {
+    
+    width:300px;
+    height:auto;
+    
+}
 /*styling for nav bar elements and chnages during hover, click*/
 
 #nav {
@@ -77,12 +89,7 @@ color: rgb(43, 44, 43);
     margin: 5%;
 }
 /* text colour changed to match theme*/
-.thumbnail {
-    padding: 9px;
-    background-color:rgb(118, 122, 118);
-    border-color: rgb(102, 102, 102);
-    color: #e6c3c3;
-}
+
 
 .form-group {
     box-sizing: content-box;
