@@ -1,4 +1,4 @@
-# Portfolio. :computer: :telephone_receiver:
+# Portfolio. :computer: :telephone_receiver: :telephone_receiver: :loudspeaker:
 ### A portfolio to collate projects, contact information and a bio 
 
 A mobile responsive website utilising bootstrap CSS
