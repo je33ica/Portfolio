@@ -3,7 +3,7 @@
 body {
   background-color: rgb(118, 122, 118);
   max-width: 100%;
-  font-size: 50px;
+  /* font-size: 90px; */
   font-family: "Hind Siliguri", sans-serif;
   color: #f2dede;
 }
@@ -25,6 +25,7 @@ header {
   padding: 9px;
   background-color: rgb(118, 122, 118);
   color: #e6c3c3;
+  border: none;
 }
 .thumbnail:hover {
   width: 300px;
@@ -111,5 +112,5 @@ a,
 p {
   color: #f6caca;
   font-family: "Hind Siliguri", sans-serif;
-  font-size: large;
+  font-size: 20px;
 }
