@@ -1,5 +1,5 @@
-### Portfolio. :computer: :telephone_receiver:
-# A portfolio to collate projects, contact information and a bio 
+# Portfolio. :computer: :telephone_receiver:
+### A portfolio to collate projects, contact information and a bio 
 
 A mobile responsive website utilising bootstrap CSS
 Comprising of three pages each utilising elements of bootstrap.
