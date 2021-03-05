@@ -1,122 +1,115 @@
 /*background colour for whole page*/
 
 body {
-    background-color: rgb(118, 122, 118);
-    max-width: 100%;    
-    font-size: 50px;
-    font-family: 'Hind Siliguri', sans-serif;
-    color: #f2dede;
+  background-color: rgb(118, 122, 118);
+  max-width: 100%;
+  font-size: 50px;
+  font-family: "Hind Siliguri", sans-serif;
+  color: #f2dede;
 }
 /*Styling for header using google font*/
 header {
-    /* background-color: rgb(108, 110, 108); */
-    padding: 20px;
-    font-family: 'Hind Siliguri', sans-serif;
-    color: rgb(117, 189, 117);
-    font-size: 48px;
-    flex-flow: column wrap;
-    justify-content: center;
+  /* background-color: rgb(108, 110, 108); */
+  padding: 20px;
+  font-family: "Hind Siliguri", sans-serif;
+  color: rgb(117, 189, 117);
+  font-size: 48px;
+  flex-flow: column wrap;
+  justify-content: center;
 }
 .page-header {
-    text-align: left;
+  text-align: left;
 }
 .thumbnail {
-    display: inline;
-    padding: 9px;
-    background-color:rgb(118, 122, 118);
-    border-color: rgb(102, 102, 102);
-    color: #e6c3c3;
+  display: inline;
+  padding: 9px;
+  background-color: rgb(118, 122, 118);
+  color: #e6c3c3;
 }
 .thumbnail:hover {
-    
-    width:300px;
-    height:auto;
-    
+  width: 300px;
+  height: auto;
 }
 /*styling for nav bar elements and chnages during hover, click*/
 
 #nav {
-    font-size:xx-large ;
-    color: #e6c3c3;
-    font-weight: bold;
+  font-size: xx-large;
+  color: #e6c3c3;
+  font-weight: bold;
 }
 .nav.nav-center {
-    display: inline-block;
-    left: 0;
-    right: 0;
-    text-align:center;width:100%;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
 }
-.nav.nav-center li,.nav.nav-center li  a{
-    display:inline;
-    float:none;
-    line-height:40px;
+.nav.nav-center li,
+.nav.nav-center li a {
+  display: inline;
+  float: none;
+  line-height: 40px;
 }
-
 
 #nav:hover {
-    
-    background-color:  #ffffff;
-    
-    border-radius: 10px;
+  background-color: #ffffff;
+
+  border-radius: 10px;
 }
 #nav.active {
-    color: rgb(43, 44, 43);
-    
+  color: rgb(43, 44, 43);
 }
 
 .repo:hover {
-    color: #b9a4a4;
-
+  color: #b9a4a4;
 }
-.fa-github-square,.fa-linkedin{
-    color: rgb(43, 44, 43);
-
+.fa-github-square,
+.fa-linkedin {
+  color: rgb(43, 44, 43);
 }
-.fa-github-square:hover,.fa-linkedin:hover{
-    color: #b9a4a4;
-
+.fa-github-square:hover,
+.fa-linkedin:hover {
+  color: #b9a4a4;
 }
 
 /* .fa-linkedin:before {
 color: rgb(43, 44, 43);
 } */
 .container {
-    font-family: 'Hind Siliguri', sans-serif;
-    text-align: center;
-    padding-left:5%;
-    padding-right:5% ;
-    font-size: 30%;
-    margin: 5%;
+  font-family: "Hind Siliguri", sans-serif;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 30%;
+  margin: 5%;
 }
 /* text colour changed to match theme*/
 
-
 .form-group {
-    box-sizing: content-box;
+  box-sizing: content-box;
 }
 .fas {
-    color:#f2dede;
-    position: center;
-    
+  color: #f2dede;
+  position: center;
 }
 .fas:hover {
-    color: #b9a4a4 ;
-
+  color: #b9a4a4;
 }
 
 #icon {
-    color:#e6c3c3;
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 30%;
-    position: center;
-    text-align: center;
+  color: #e6c3c3;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 30%;
+  position: center;
+  text-align: center;
 }
 input {
-    display: none;
+  display: none;
 }
 
-a,p {
-    color:#f6caca;
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: large;    
+a,
+p {
+  color: #f6caca;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: large;
 }
